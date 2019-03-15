@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" name="MyApp" packages="">
+    <Properties>
+        <Property name="logsPath">src/test/resources/logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console-appender" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%-5level] %date{yyyy-MM-dd HH:mm} %class{1}:%L - %highlight{%msg} %xEx{short}%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console-appender" />
+        </Root>
+    </Loggers>
+</Configuration>

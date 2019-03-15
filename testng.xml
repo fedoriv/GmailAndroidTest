@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AndroidGmailTest" verbose="10">
+    <test name="EmailSendingTest" >
+        <classes>
+            <class name="OnePlus3tTest"/>
+        </classes>
+    </test>
+</suite>
